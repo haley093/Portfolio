@@ -28,7 +28,7 @@
   --weight-semi-bold: 600;
   --weight-regular: 400;
   /* size */
-    --size-border-radius:4px;
+  --size-border-radius: 4px;
 }
 
 /* Universal tags */
@@ -37,7 +37,7 @@
 }
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;:
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -47,6 +47,20 @@ a {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+button {
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 3px solid white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* Typography */
@@ -85,8 +99,8 @@ p {
   justify-content: space-between;
   background-color: var(--color-lightpurple);
   align-items: center;
-  padding:16px;
-  color:white;
+  padding: 16px;
+  color: white;
 }
 
 .navbar__menu {
@@ -94,24 +108,126 @@ p {
   font-size: medium;
   font-weight: bold;
 }
-.navbar__logo{
-    font-size: medium;
-    font-weight: bold;
+.navbar__logo {
+  font-size: medium;
+  font-weight: bold;
 }
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
-  cursor:pointer;
+  cursor: pointer;
   border-radius: 4px;
 }
 
-.navbar__menu__item.active{
-    border : 1px solid white;
-    border-radius: 4px;
-    
+.navbar__menu__item.active {
+  border: 1px solid white;
+  border-radius: 4px;
 }
 
-.navbar__menu__item:hover{
-    background-color: var(--color-darkpurple);
+.navbar__menu__item:hover {
+  background-color: var(--color-darkpurple);
+}
 
+/* HOME */
+
+#home {
+  background: url("imgs/home-background.png") center/cover no-repeat;
+  padding: 40px;
+  margin: 0%;
+  text-align: center;
+  font-size: xx-large;
+}
+.home__avatar {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.home__title,
+.home__description {
+  color: #776d8f;
+}
+
+.home__contact {
+  font-size: var(--font-regular);
+  color: var(--color-darkpurple);
+  font-weight: bold;
+  margin: 24px 24px;
+  padding: 8px 12px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.home__contact:hover {
+  color: #776d8f;
+  background-color: #fff;
+}
+
+/* Section common */
+
+.section {
+  padding: 50px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* About */
+.about__majors {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+
+.major__icon {
+  width: 170px;
+  height: 170px;
+  font-size: 70px;
+  line-height: 170px;
+  margin: auto;
+  border: 1px solid var(--color-blue);
+  border-radius: 50%;
+  margin-bottom: 16px;
+  color: var(--color-blue);
+}
+
+.major__title {
+  color: var(--color-dark-grey);
+}
+
+.major__icon i {
+  transition: all 300ms ease-in;
+}
+
+.major__icon:hover i {
+  color: var(--color-darkpurple);
+  transform: rotate(-25deg) scale(1.1);
+}
+
+.education {
+  display: flex;
+  align-items: center;
+}
+
+.comit {
+  width: 100px;
+  height: 70px;
+}
+.Bucheon {
+  width: 100px;
+  height: 70px;
+}
+
+.education__description {
+  margin: 0 16px;
+  text-align: left;
+}
+
+.education__name,
+.education__period {
+  color: var(--color-light-grey);
+}
+
+.education__period {
+  font-size: var(--font-small);
 }

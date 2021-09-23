@@ -20,6 +20,8 @@
     />
   </head>
   <body>
+
+
     <!-- Navbar -->
     <nav id="navbar">
       <div class="navbar__logo">
@@ -42,47 +44,79 @@
         alt="Hyejin's profile photo"
         class="home__avatar"
       />
-      <h1 id="home__title">Hello, <br />I'm Hyejin</h1>
-      <h2 id="home__description">A Front-End Web Developer</h2>
-      <button id="home__contact">Contact Me</button>
+      <h1 class="home__title">Hello, <br />I'm Hyejin</h1>
+      <h2 class="home__description">A Front-End Web Developer</h2>
+      <button class="home__contact">Contact me!</button>
     </section>
 
     <!-- About -->
-    <section id="about"></section>
-    <h1>About me</h1>
-    <p>
-      Hello World! I'm Hyejin. A Front-End Web Developer from Alberta in Canada.
-      <br />
-      After graduating from computer sciences in Korea, I have completed Java
-      classes at ComIT in Canada.<br />
-      Based on what I learnt, I created a site that can be implemented on the
-      web and mobile through HTML, JavaScript, and CSS. It also uses Java to
-      create a shopping mall that consumers can use.<br />
-      <!-- more contents -->
-      I strive to build immersive and beautiful web applications through
-      user-centric design.
-    </p>
-    <div class="about__majors">
-      <div class="major"></div>
-      <div class="major__icon"></div>
-      <i class="fab fa-html5"></i>
-      <i class="fab fa-css3-alt"></i>
-      <i class="fab fa-java"></i>
-      <i class="fab fa-js-square"></i>
-      <div class="major__title">Front-End</div>
-      <div class="major__descriptiopn">HTML, CSS, JAVA, JavaScript</div>
-    </div>
-    <div class="about__education">
-      <div class="education">
-        <img src="imgs/comit.png" alt="comit__logo" />
-        <p>Java coures - Jul/2021-Oct/2021</p>
-        <img src="imgs/Bucheon.gif" alt="university__logo" />
-        <p>IT Convergence Business - Mar/2012-Feb/2014</p>
+    <section id="about" class="section">
+      <h1>About me</h1>
+      <p>
+        Hello World! I'm Hyejin. A Front-End Web Developer from Alberta in
+        Canada.
+        <br />
+        After graduating from computer sciences in Korea, I have completed Java
+        classes at ComIT in Canada.<br />
+        Based on what I learnt, I created a site that can be implemented on the
+        web and mobile through HTML, JavaScript, and CSS. It also uses Java to
+        create a shopping mall that consumers can use.<br />
+        <!-- more contents -->
+        I strive to build immersive and beautiful web applications through
+        user-centric design.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__title">HTML</div>
+        </div>
+
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="major__title">CSS</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-java"></i>
+          </div>
+          <div class="major__title">JAVA</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="major__title">JAVASCRIPT</div>
+        </div>
       </div>
-      <div class="education"></div>
-    </div>
+
+      <br />
+
+      <div class="about__education">
+        <div class="education">
+          <img src="imgs/comit.png" alt="comit__logo" class="comit" />
+          <div class="education__description">
+            <p class="education__name">Java coures in Canada</p>
+            <p class="education__period">Jul/2021-Oct/2021</p>
+          </div>
+          </div>
+          <div class="education">
+          <img src="imgs/Bucheon.gif" alt="university__logo" class="Bucheon" />
+          <div class="education__description">
+            <p class="education__name">
+              IT Convergence Business in South Korea
+            </p>
+            <p class="education__period">- Mar/2012-Feb/2014</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Skill -->
-    <section id="skills">
+    <section id="skills" class="section">
       <h1>Skills</h1>
       <h2>Skills & Attributes</h2>
 
@@ -134,7 +168,7 @@
       </div>
     </section>
     <!-- Projects -->
-    <section id="Projects">
+    <section id="Projects" class="section">
       <h1>Projects</h1>
       <div class="work__categories">
         <button class="categories__btn">ALL</button>
@@ -223,7 +257,7 @@
       </div>
     </section>
     <!-- Testimonials -->
-    <section id="testimonials">
+    <section id="testimonials" class="section">
       <h1>Testimonials</h1>
       <h3>See what they say about me</h3>
       <div class="testimonials">
@@ -252,7 +286,7 @@
       </div>
     </section>
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="section">
       <h1 class="contact__title">Let's Talk!</h1>
       <h2 class="contact__email">hyejin01093@gmail.com</h2>
       <div class="contact__link">
