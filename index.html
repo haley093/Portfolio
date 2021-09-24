@@ -121,7 +121,7 @@
         <h1>Skills</h1>
         <h2>Skills & Attributes</h2>
         
-        <p>  Passion for learing new technologies. Capable of working within a team environment and independently.<br>
+        <p class="skill__p">  Passion for learing new technologies. Capable of working within a team environment and independently.<br>
         Ability to plan and time sch edule, work under strict time pressure and adapt quickly when needed.
       </p>
 
@@ -189,97 +189,109 @@
       </div>
       </div>
   </section>
-    <!-- Projects -->
-    <section id="Projects" class="section">
-      <h1>Projects</h1>
+
+
+       <!-- Work -->
+    <section id="work" class="section">
+<div class="section__container">
+        <h1>My work</h1>
+      <h2>Projects</h2>
       <div class="work__categories">
-        <button class="categories__btn">ALL</button>
-        <button class="categories__btn">Front-End</button>
-        <button class="categories__btn">Mobile</button>
+        <button class="category__btn selected" data-filter="*">
+          All <span class="category__count">8</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          Front-end <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="back-end">
+          Back-end <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="mobile">
+          Mobile <span class="category__count">2</span>
+        </button>
       </div>
-
       <div class="work__projects">
-        <a href="www.naver.com" class="project__img" target="blank">
-          <img src="imgs/project/project1.png" alt="Youtube" />
+        <a href="" class="project" target="blank" data-type="front-end">
+          <img
+            src="imgs/project/project1.png"
+            alt="Youtube"
+            class="project__img"
+          />
           <div class="project__description">
             <h3>Youtube Site</h3>
-            <span>coiding with HTML CSS</span>
+            <span>Clone coding with HTML, CSS</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/dream-ellie/responsive-nav-bar"
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="imgs/project/project2.png"
+            alt="navbar"
+          />
+          <div class="project__description">
+            <h3>Responsive Navbar</h3>
+            <span>HTML, CSS with media query</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/dream-ellie/responsive-nav-bar"
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img class="project__img" src="imgs/project/project3.png" />
+          <div class="project__description">
+            <h3>Shopping mall game</h3>
+            <span>HTML, CSS, JavaScript, Json</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/project/project4.png" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div> 
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/project/project5.png" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/project/project6.png" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/project/project7.png" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/project/project8.png" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
           </div>
         </a>
       </div>
+</div>
 
-      <div class="work__projects">
-        <a href="www.naver.com" class="project__img" target="blank">
-          <img src="imgs/project/project2.png" alt="Youtube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>coiding with HTML CSS</span>
-          </div>
-        </a>
-      </div>
-
-      <div class="work__projects">
-        <a href="www.naver.com" class="project__img" target="blank">
-          <img src="imgs/project/project3.png" alt="Youtube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>coiding with HTML CSS</span>
-          </div>
-        </a>
-      </div>
-
-      <div class="work__projects">
-        <a href="www.naver.com" class="project__img" target="blank">
-          <img src="imgs/project/project4.png" alt="Youtube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>coiding with HTML CSS</span>
-          </div>
-        </a>
-      </div>
-
-      <div class="work__projects">
-        <a href="www.naver.com" class="project__img" target="blank">
-          <img src="imgs/project/project5.png" alt="Youtube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>coiding with HTML CSS</span>
-          </div>
-        </a>
-      </div>
-
-      <div class="work__projects">
-        <a href="www.naver.com" class="project__img" target="blank">
-          <img src="imgs/project/project6.png" alt="Youtube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>coiding with HTML CSS</span>
-          </div>
-        </a>
-      </div>
-
-      <div class="work__projects">
-        <a href="www.naver.com" class="project__img" target="blank">
-          <img src="imgs/project/project7.png" alt="Youtube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>coiding with HTML CSS</span>
-          </div>
-        </a>
-      </div>
-
-      <div class="work__projects">
-        <a href="www.naver.com" class="project__img" target="blank">
-          <img src="imgs/project/project8.png" alt="Youtube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>coiding with HTML CSS</span>
-          </div>
-        </a>
-      </div>
     </section>
     <!-- Testimonials -->
     <section id="testimonials" class="section">
+    <div class="section__container">
       <h1>Testimonials</h1>
       <h3>See what they say about me</h3>
       <div class="testimonials">
@@ -290,22 +302,24 @@
             class="testimonial__avatar"
           />
           <div class="testmonial__speech-bubble">
-            <p>**not ready yet</p>
+            <p>**not ready yet not ready yet not ready yet not ready yet not ready yet not ready yet not ready yet</p>
             <p class="name"><a href="">Name</a>/Company</p>
           </div>
         </div>
         <div class="testimonial">
+          
+          <div class="testmonial__speech-bubble">
+            <p>**not ready yet not ready yet not ready yet not ready yet not ready yet not ready yet not ready yet</p>
+            <p class="name"><a href="">Name</a>/Company</p>
+          </div>
           <img
             src="imgs/testimonials/people1.jpg"
             alt="testimonial_avatar"
             class="testimonial__avatar"
           />
-          <div class="testmonial__speech-bubble">
-            <p>**not ready yet</p>
-            <p class="name"><a href="">Name</a>/Company</p>
-          </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- Contact -->
     <section id="contact" class="section">
